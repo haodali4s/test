@@ -12,6 +12,6 @@ export default defineConfig({
     { path: "/scaling", component: "@/pages/scaling" },
   ],
   npmClient: "pnpm",
-
+  publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
   base: "/test/",
 });
