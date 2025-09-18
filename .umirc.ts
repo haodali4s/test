@@ -12,4 +12,6 @@ export default defineConfig({
     { path: "/scaling", component: "@/pages/scaling" },
   ],
   npmClient: "pnpm",
+
+  base: "/test/",
 });
